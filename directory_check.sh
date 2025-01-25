@@ -1,5 +1,5 @@
 #!/bin/bash
-DIRECTORY="/shellScriping"
+DIRECTORY="./shellScripting"
 if [[ ! -d $DIRECTORY ]]; then
     echo "Directory does not exist"
     mkdir -p $DIRECTORY
